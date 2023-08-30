@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+}
+
+
+.container {
+    width: 600px;
+    height: 1161px;
+    margin: auto;
+}
+
+.banner {
+    position: relative;
+    color: #FFF;
+}
+
+h1,h2,h3,h4,p{
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    position: absolute;
+    top: 29px;
+    left: 46px;
+    font-size: 39px;
+    line-height: 24px;
+    text-align: center;
+}
+
+h3 {
+    position: absolute;
+    top: 75px;
+    left: 46px;
+    font-size: 22px;
+    line-height: 13px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 16.8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+h4 {
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 8px;
+    /* 120% */
+}
+
+p {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    margin: 0;
+}
+
+.foodItem {
+    position: relative;
+    display: flex;
+    width: 504px;
+    margin: 40px 50px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.emoji {
+    width: 70px;
+    height: 89px;
+    font-size: 78.72px;
+    margin-right: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.addBtn {
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DEDEDE;
+    color: #3C3C3C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+    cursor: pointer;
+    /* 75% */
+}
+
+.checkout-title {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.cartItem,
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartItem h4,
+.price-info h4 {
+    margin: auto 0;
+}
+
+.price-info {
+    margin-top: 20px;
+    border-top: 2px solid #393333;
+}
+
+.purchase-btn {
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #16DB99;
+    width: 508px;
+    padding: 18px 175px 18px 194px;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--white, #FFF);
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+
+.subcontainer {
+    width: 508px;
+    margin: 0 auto;
+}
+
+.nameEl {
+    display: flex;
+    align-items: center;
+}
+
+.removeBtn {
+    background-color: #FFF;
+    border: none;
+    width: 77px;
+    height: 22px;
+    color: #BBB;
+    font-family: Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    /* 200% */
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    display: none;
+    flex-direction: column;
+    width: 524px;
+    height: 542.24px;
+    border-radius: 4px;
+    justify-content: space-around;
+    padding-left: 24px;
+}
+
+.modal-heading {
+    color: #000;
+    font-family: Verdana;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.119px;
+    margin: 47px 110px 0 110px;
+    /* 129.664% */
+}
+
+.modal-input {
+    width: 475.911px;
+    box-sizing: border-box;
+    height: 71.304px;
+    color: #757575;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.119px;
+    /* 155.596% */
+}
+
+.pay-btn {
+    width: 475.911px;
+    height: 71.304px;
+    flex-shrink: 0;
+    border-radius: 3.89px;
+    border: none;
+    background: #16DB99;
+    color: var(--white, #FFF);
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.119px;
+    /* 155.596% */
+}
+
+.thanks-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 504px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #ECFDF5;
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    /* 52.5% */
+} 
