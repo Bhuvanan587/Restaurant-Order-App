@@ -90,9 +90,10 @@ function finalPay() {
         Thanks, ${username.value}! Your order is on its way!
         </div>`;
 
+        if(username.value){
         subcontainer.innerHTML = thankString;
         modal.style.display = 'none';
-
+        }
         // Clear input fields
         username.value = '';
         cardNumber.value = '';
