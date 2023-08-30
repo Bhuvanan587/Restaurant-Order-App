@@ -90,7 +90,7 @@ function finalPay() {
         Thanks, ${username.value}! Your order is on its way!
         </div>`;
 
-        if(username.value){
+        if(username.value && cardNumber.value && cvv.value){
         subcontainer.innerHTML = thankString;
         modal.style.display = 'none';
         }
